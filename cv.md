@@ -9,8 +9,10 @@ _Phone:_ +30-698-6713122
 
 _e-mail:_ alina.emelianova91@gmail.com
 
- _GitHub:_ AlinaKats
+_GitHub:_ AlinaKats
  https://github.com/AlinaKats
+
+_telegram:_ AlinaKats
 
 
 About me
