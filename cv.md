@@ -12,7 +12,7 @@ _e-mail:_ alina.emelianova91@gmail.com
 _GitHub:_ AlinaKats
  https://github.com/AlinaKats
 
-_telegram:_ AlinaKats
+_telegram:_ @AlinaKatss https://t.me/AlinaKatss
 
 
 About me
@@ -34,10 +34,18 @@ Programming Languages
 
 Coding Example
 -----------------
+__DESCRIPTION:__
+*Colour plays an important role in our lifes. Most of us like this colour better then another. User experience specialists believe that certain colours have certain psychological meanings for us.*
+
+*You are given a 2D array, composed of a colour and its 'common' association in each array element. The function you will write needs to return the colour as 'key' and association as its 'value'.*
 ```
-const isIsogram = (str) => {
-  let word = str.toLowerCase();
-  return new Set(word).size === str.length;
+function colourAssociation(array){
+  let newArray = [];
+  
+  for  (let [key,value] of array) {
+    newArray.push({[key]: value + ''});
+  }
+  return newArray;
 }
 ```
 
